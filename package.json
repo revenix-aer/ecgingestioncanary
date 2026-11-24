@@ -1,0 +1,11 @@
+{
+  "name": "ecgingestioncanary",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Harmless lifecycle execution canary for authorized ECG ingestion testing",
+  "scripts": {
+    "preinstall": "node scripts/ingestioncanary.js",
+    "install": "node scripts/ingestioncanary.js",
+    "postinstall": "node scripts/ingestioncanary.js"
+  }
+}
